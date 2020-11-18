@@ -1,0 +1,69 @@
+@media (max-width: 575px) {
+	hr {border-top: groove black 3px; width: auto; margin-top: 5px;}
+	#container 	{width: 100%;}
+	#logo		{padding-top: 5px; padding-bottom: 0px;}
+	.logoWidth 	{width: 95%;}
+	#belowlogo 	{text-align: center; font-size: 1.0em}  /*0.9em*/
+	.test {height: 310px;}
+}
+
+@media (min-width: 575px){
+	hr {border-top: groove black 3px; width: auto; margin-top: 5px;}
+	#container {width: 90%;}
+	.logoWidth {width: 93%;}
+		.test {height: 150px;}
+}
+
+@media (min-width: 768px){
+	hr {border-top: groove black 3px; width: auto; margin-top: 5px;}
+	#container {width: 90%;}
+	.logoWidth {width: 90%;}
+}
+
+@media (min-width: 992px){
+	hr {border-top: groove black 4px; width: auto; margin-top: 5px;}
+	#container {width: 90%;}
+	.logoWidth {width: 90%;}
+	.nav-item-cell{
+		width: 140px;
+		border-left: 1px groove;
+		text-align: center;
+		font-size: 1em;}
+}
+
+@media (min-width: 1258px){
+	
+	hr {border-top: solid black 4px; width: auto; margin-top: 5px;}
+	#container {width:80%;}
+	.logoWidth {width: 80%;}
+	.nav-item-cell{
+		width: 150px;
+		border-left: 1px groove;
+		text-align: center;
+		font-size: 1.1em;}
+
+}
+
+
+
+
+
+/*
+Example
+
+Extra small devices (phones, 575px and down) 
+@media only screen and (max-width: 600px) {...}
+
+Small devices (portrait tablets and large phones, 575px and up) 
+@media only screen and (min-width: 575px) {...}
+
+Medium devices (landscape tablets, 768px and up) 
+@media only screen and (min-width: 768px) {...}
+
+Large devices (laptops/desktops, 992px and up) 
+@media only screen and (min-width: 992px) {...}
+
+Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px) {...}
+
+*/
