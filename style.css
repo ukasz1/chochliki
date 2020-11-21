@@ -2,13 +2,20 @@
 
 }
 
-div {
-	/*border: 1px solid black;*/
-}
+
+article > p{
+	text-align: justify;
+	line-height: 1.8em;
+	}
+	
+article > p:first-child::first-letter{
+	font-size:3em;
+	}
+	
 body {
 		margin: 0;
 		font-family: georgia;
-		font-size: 1em;
+		font-size: 16px;
 		}
 	
 		#container {
@@ -51,7 +58,7 @@ body {
 
 			padding:15px;
 			padding-top: 8px;
-			text-align: justify;
+		/*	text-align: justify;*/
 		}
 		#prawy{
 		
@@ -61,8 +68,8 @@ body {
 		
 		#footer{
 			text-align:center;
-			font-size:11px;
-			font-family: verdana;
+			font-size: 1em;
+			font-family: ;
 		}
 
 .test
@@ -122,22 +129,14 @@ ol
             justify-content: space-between;*/
 }
 
-ol a
+ul a
 {
 	color: #000000;
 	text-decoration: none;
 	display: block;
 }
 
-ol > li
-{
-	float: left;
-	width: 149px;
-	min-width: 149 px;
-	height: 40px;
-	border-right: 1px groove;
 
-}
 
 ol > li:first-child
 {
@@ -185,3 +184,4 @@ ol > li > ul > li:hover > a
 {
 	color: #111111;
 }
+
