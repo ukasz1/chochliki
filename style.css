@@ -54,7 +54,7 @@ body {
 		#tresc{
 
 			width: 75%;
-			float: left;
+		/*	float: left;*/
 
 			padding:15px;
 			padding-top: 8px;
@@ -62,7 +62,7 @@ body {
 		}
 		#prawy{
 		
-			float:left;
+		/*	float:left;*/
 
 		}
 		
