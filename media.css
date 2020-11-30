@@ -33,11 +33,11 @@
 		width: 140px;
 		border-left: 3px groove;
 		text-align: center;
-		font-size: 1em;}
+		font-size: 1.1em;}
 		
-	ul > li:last-child{
-	border-right: 3px groove;
-}
+/*	ul > li:last-child{
+	border-right: 3px groove;*/
+
 }
 
 @media (min-width: 1258px){
@@ -52,11 +52,11 @@
 		text-align: center;
 		font-size: 1.1em;}
 		
-	ul > li:last-child{
-	border-right: 3px groove;
+/*	ul > li:last-child{
+	border-right: 3px groove;*/
 }
 
-}
+
 
 
 

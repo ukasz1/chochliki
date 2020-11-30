@@ -1,15 +1,19 @@
+var a;
 
 
-
-
-
-//console.log("window.innerWidth: "+window.innerWidth);
-
-function czas(){
-	var a=window.innerWidth;
+function windowWidthInPx(){
+	a=window.innerWidth;
 
 		//Wypisywanie daty
 	document.getElementById('windowWidth').innerText=a;
 
-	setTimeout("czas()",10);
+	setTimeout("windowWidthInPx()",10);
+	if(a<1384 && a>992){
+		document.getElementById("last-link").setAttribute("style", "display: none;");
+	}
+	if(a>1384 || a<992){
+		document.getElementById("last-link").setAttribute("style", "display: visible;");
+	}
+	
+	
 }
