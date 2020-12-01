@@ -1,11 +1,12 @@
-.navbar
-{
-	min-height: 40px;   /*57px*/
+#ul-list{
+	margin: auto;
+	/*border-right: 3px groove;*/
 }
 
-
-
-
+.navbar
+{
+	min-height: 40px;   
+}
 
 .navbar a
 {
@@ -21,11 +22,11 @@
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-    color: black;  /*rgba(255,255,255,.8)*/
+    color: black; 
 }
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
-    color: black; /*(255,255,255,.5);*/
+    color: black;
 }
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
