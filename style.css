@@ -12,72 +12,57 @@ article > p:first-child::first-letter{
 	}
 	
 body {
-		margin: 0;
-		font-family: georgia;
-		font-size: 16px;
-		}
+	margin: 0;
+	font-family: georgia;
+	font-size: 16px;
+	}
 	
-		#container {
-		width:80%;   /*1200px*/
-        margin:0 auto;
-        padding:0;
-
-		border-spacing: 0px;
-
-		}
+#container {
+	width:80%;   
+	margin:0 auto;
+	padding:0;
+	border-spacing: 0px;
+	}
 		
-		#logo{
-
-		width:100%;
-		padding-top:40px;  			/*40px*/
-		padding-bottom:10px;		/*10px*/
+#logo{
+	width:100%;
+	padding-top:40px;  			
+	padding-bottom:10px;		
 		
 
-		height: 100px;
-		margin:0 auto;
-		text-align: center;
+	height: 100px;
+	margin:0 auto;
+	text-align: center;
 	
-		box-shadow:0 0 0 0px;
-		}
+	box-shadow:0 0 0 0px;
+	}
 		
-/*		.logoWidth{
-			width: 100%;
-		}*/
-		
-		#belowlogo{
-		text-align: right;
-		font-family: monotype coursiva;
-		font-size: 1em/*16px*/;
-		}
+#belowlogo{
+	text-align: right;
+	font-family: monotype coursiva;
+	font-size: 1em/*16px*/;
+	}
 
-		#tresc{
+#tresc{
 
-			width: 75%;
-		/*	float: left;*/
+	width: 75%;
+/*	float: left;*/
 
-			padding:15px;
-			padding-top: 8px;
-		/*	text-align: justify;*/
-		}
-		#prawy{
-		
-		/*	float:left;*/
+	padding:15px;
+	padding-top: 8px;
+/*	text-align: justify;*/
+	}
 
-		}
-		
-		#footer{
-			text-align:center;
-			font-size: 1em;
-			font-family: ;
-		}
+#footer{
+	text-align:center;
+	font-size: 1em;
+	font-family: ;
+	}
 
-.test
-{ 
+.test{ 
 	width: 100%;
 	padding: 5px 0;
-
 	text-align: center;
-
 }
 
 .fb{
@@ -95,92 +80,5 @@ body {
 	height:95px;
 	background-color:#d94348;
 }
-/*
-		
-      #menu {
-        
-        margin:0 auto;
-        padding:0;
-		display: inline-block;
-      }
-*/
- 
-/*( #240060 10%, #0000A0 90%) */
-      /* wygl¹d elementów - a - po najechaniu kursorem myszki na element - li */
-      #menu > li:hover > a {
-        color:#00F;
-        background-color:#FFF;
-        background-image:none;
-      }
-	  
-	  
-ol
-{
-	padding: 0;
-	margin: 0;
-	list-style-type: none;		/*likwiduje numerowanie elementów*/
-	font-size: 18px;
-	height: 35px;
-	line-height: 200%;			/*interlinia*/
-	display: block;
-	/*display: inline-block;*/
-	/*display: flex;
-            justify-content: space-between;*/
-}
 
-ul a
-{
-	color: #000000;
-	text-decoration: none;
-	display: block;
-}
-
-
-
-ol > li:first-child
-{
-	border-left: 1px groove;
-}
-
-ol > li:hover
-{
-	background-color: #EEEEEE;
-}
-
-ol > li:hover > a
-{
-	color: #AAAAAA;
-}
-
-ol > li > ul
-{
-	list-style-type: none; /*kasuje numeracjê listy rozwijanej*/
-	padding: 0;
-	margin: 0;
-	height: 40px;
-	display: none;				/*ukrywa llistê a¿ do najechania mysz¹; domyœlnie jest ona normalnie-widoczna*/
-}
-
-ol > li:hover > ul
-{
-	display: block; 		/*JAK TO SKASUJESZ TO LISTA SIÊ NIE WYŒWIETLA*/
-}
-
-ol > li > ul > li
-{
-	background-color:#EEEEEE;
-	position: relative;
-	z-index: 100;
-	border-top: 1px dashed #CCCCCC;
-}
-
-ol > li > ul > li:hover
-{
-	background-color: #BBBBBB;
-}
-
-ol > li > ul > li:hover > a
-{
-	color: #111111;
-}
 
