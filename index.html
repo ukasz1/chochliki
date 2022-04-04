@@ -1,174 +1,129 @@
 <!DOCTYPE HTML>
 <html>
-  <head>
-  
-    <meta charset="utf-8">
+
+<head>
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-
-	
-	
-	<<link rel="stylesheet" href="css/bootstrap.css"> 	<!-- dodanie Bootstrapa -->
-	
-	
-	<link href="style.css" rel="stylesheet" type="text/css" />
-	<link href="nav.css" rel="stylesheet" type="text/css" />
-	<link href="media.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css"> <!-- adding Bootstrap -->
+	<link href="styles/style.css" rel="stylesheet" type="text/css" />
+	<link href="styles/nav.css" rel="stylesheet" type="text/css" />
+	<link href="styles/media.css" rel="stylesheet" type="text/css" />
 	<link href="css/fontello.css" rel="stylesheet" type="text/css" />
-	
-    <title>Witajcie chochliki</title>
-   
-  </head>
+	<title>Witajcie chochliki</title>
+</head>
 
-  <body background="#FFFFFF" onload="windowWidthInPx()">
-  
+<body background="#FFFFFF">
 	<div id="container">
-	
 		<div id="logo" style="border: 0px solid black; height: auto;">
-			<img src="logo-png.png" style="text-align:center; border: 0px solid black;" class="logoWidth" />  <!-- width="70%" -->
+			<img src="images/logo.png" style="text-align:center; border: 0px solid black;" class="logoWidth" />
 		</div>
-		
-		<div id="belowlogo"><i>Chochliki kornwalijskie. Świeżo schwytane chochliki konwalijskie!</i>
+		<div id="belowlogo">
+			<i>Chochliki kornwalijskie. Świeżo schwytane chochliki konwalijskie!</i>
 		</div>
-		<!-- <div id="hidden-hr"> -->
-			<hr id="hidden-hr" />
-		<!-- </div>  -->
-<!-- ----------------------------------------------------------------------------------------------------------------------------- -->
+		<hr id="hidden-hr" />
 		<div>
-			<nav class="navbar navbar-light navbar-expand-lg navbar-custom"> <!-- style="border: 1px solid black; font-size: 1.1em;" -->
-		
-			
-		
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-		
-			<div class="collapse navbar-collapse" id="mainmenu" style="border: 0px solid black;"> 
-			
-				<ul class="navbar-nav mr-auto" id="ul-list"> <!-- style="margin: auto" -->
-				
-					<li class="nav-item active nav-item-cell">
-						<a class="nav-link" href="#">Aktualności</a>
-					</li>
-					
-					<li class="nav-item active nav-item-cell" style="width: 160px;">
-						<a class="nav-link" href="#">Pochodzenie</a>
-					</li>
-					
-					<li class="nav-item dropdown nav-item-cell">
-						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-expanded="false" id="submenu" aria-haspopup="true">Informacje</a>
-						
-						<div class="dropdown-menu" aria-labelledby="submenu">
-						
-							<a class="dropdown-item" href="#"> Wygląd </a>
-							<a class="dropdown-item" href="#"> Rodzaje </a>
-							
-							<div class="dropdown-divider"></div>
-							
-							<a class="dropdown-item" href="#"> Zwyczaje </a>
-							<a class="dropdown-item" href="#"> Ciekawostki </a>
-						
-						</div>
-						
-					</li>
-					
-					<li class="nav-item active nav-item-cell">
-						<a class="nav-link" href="#"> Tresura </a>
-					</li>
-					
-					<li class="nav-item active nav-item-cell">
-						<a class="nav-link" href="#"> Sklep </a>
-					</li>
-					
-					<li class="nav-item active nav-item-cell">
-						<a class="nav-link" href="#"> Częste pytania</a>
-					</li>
-					
-					<li class="nav-item active nav-item-cell" id="last-link">
-						<a class="nav-link" href="#"> Polecane linki </a>
-					</li>
-				
-				</ul>
-			
-
-				
-				</form>
-			
-			</div>
-		
-		</nav>
-		</div>
-		
-			<!-- <div> -->
-				<hr />
-			<!-- </div> -->
-			<div class="container">
-			<div id="content" class="row">   <!-- id="content" -->
-				
-				<div id="tresc" class="col-12 col-md-9">
-					
-						<div style="text-align: center; margin-top: 15px; margin-bottom: 5px;">
-							<img src="banan.svg" style="width: 150px;"/>
-						</div>
-						
-						<div>
-							<article>
-								
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate, urna in viverra pulvinar, dolor felis molestie nulla, a tincidunt purus orci et sapien. Maecenas posuere lobortis massa quis pellentesque. Nunc fermentum orci sed urna dignissim accumsan. Maecenas vestibulum nec odio id aliquet. Sed condimentum erat feugiat ultrices accumsan. Nulla justo elit, sodales at tempor in, tempor id augue. Mauris quis nisl sed massa fermentum rutrum.<br />
-									
-								<p><span style="font-size: 25px; font-weight: bold;">TEST - szerokość ekranu: <span id="windowWidth"></span> px.</span></p>
-								</p>
-								
-								<p>
-
-									Suspendisse ullamcorper dui eu dolor dictum dignissim. Proin ultricies ante arcu, quis tincidunt nisl dignissim at. Aenean efficitur augue sed cursus euismod. Nunc vitae leo sed mi tempus consequat. Cras et sem scelerisque, varius orci nec, iaculis nisi. Quisque lacinia velit ante, sit amet scelerisque massa tristique convallis. Vestibulum nec eros lectus. Donec feugiat velit in tellus maximus, non dictum quam eleifend. Praesent blandit est ut magna accumsan molestie. Morbi rutrum eros dui, sed tempus lectus tempor non. Pellentesque feugiat consectetur purus, quis vulputate arcu dignissim vitae. Fusce hendrerit diam libero, et feugiat magna congue sed. Integer tristique in nisl vitae porttitor. Sed ultrices dolor nec erat lacinia rutrum.
-								</p>
-								<p>
-									Duis velit est, fringilla sed turpis at, interdum hendrerit diam. Praesent tincidunt dignissim varius. Nunc non sapien felis. Phasellus elit ex, tristique non consectetur in, consectetur nec urna. Duis porttitor placerat felis, in blandit purus facilisis id. Quisque luctus vulputate nibh, eu accumsan ante lobortis ut. Donec faucibus mi purus, vel dignissim ligula convallis id. Vestibulum ut justo vestibulum, lacinia nisl vel, faucibus quam. Cras lacinia diam sed vehicula ultrices. Fusce et luctus dui. Quisque et risus nec purus tincidunt hendrerit. Maecenas aliquet auctor hendrerit. Mauris non ultricies diam.
-								</p>
-							</article>	
-						</div>
-						
+			<nav class="navbar navbar-light navbar-expand-lg navbar-custom">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu"
+					aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="mainmenu" style="border: 0px solid black;">
+					<ul class="navbar-nav mr-auto" id="ul-list">
+						<li class="nav-item active nav-item-cell">
+							<a class="nav-link" href="#">Aktualności</a>
+						</li>
+						<li class="nav-item active nav-item-cell" style="width: 160px;">
+							<a class="nav-link" href="#">Pochodzenie</a>
+						</li>
+						<li class="nav-item dropdown nav-item-cell">
+							<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-expanded="false"
+								id="submenu" aria-haspopup="true">Informacje</a>
+							<div class="dropdown-menu" aria-labelledby="submenu">
+								<a class="dropdown-item" href="#"> Wygląd </a>
+								<a class="dropdown-item" href="#"> Rodzaje </a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#"> Zwyczaje </a>
+								<a class="dropdown-item" href="#"> Ciekawostki </a>
+							</div>
+						</li>
+						<li class="nav-item active nav-item-cell">
+							<a class="nav-link" href="#"> Tresura </a>
+						</li>
+						<li class="nav-item active nav-item-cell">
+							<a class="nav-link" href="#"> Sklep </a>
+						</li>
+						<li class="nav-item active nav-item-cell">
+							<a class="nav-link" href="#"> Częste pytania</a>
+						</li>
+						<li class="nav-item active nav-item-cell" id="last-link">
+							<a class="nav-link" href="#"> Polecane linki </a>
+						</li>
+					</ul>
 				</div>
-				
+			</nav>
+		</div>
+		<hr />
+		<div class="container">
+			<div id="content" class="row">
+				<div id="tresc" class="col-12 col-md-9">
+					<div style="text-align: center; margin-top: 15px; margin-bottom: 5px;">
+						<img src="images/zawijas.svg" style="width: 150px;" />
+					</div>
+					<div>
+						<article>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate, urna in viverra pulvinar,
+								dolor felis molestie nulla, a tincidunt purus orci et sapien. Maecenas posuere lobortis massa quis
+								pellentesque. Nunc fermentum orci sed urna dignissim accumsan. Maecenas vestibulum nec odio id aliquet.
+								Sed condimentum erat feugiat ultrices accumsan. Nulla justo elit, sodales at tempor in, tempor id augue.
+								Mauris quis nisl sed massa fermentum rutrum.<br />
+							</p>
+							<p>
+								Suspendisse ullamcorper dui eu dolor dictum dignissim. Proin ultricies ante arcu, quis tincidunt nisl
+								dignissim at. Aenean efficitur augue sed cursus euismod. Nunc vitae leo sed mi tempus consequat. Cras et
+								sem scelerisque, varius orci nec, iaculis nisi. Quisque lacinia velit ante, sit amet scelerisque massa
+								tristique convallis. Vestibulum nec eros lectus. Donec feugiat velit in tellus maximus, non dictum quam
+								eleifend. Praesent blandit est ut magna accumsan molestie. Morbi rutrum eros dui, sed tempus lectus
+								tempor non. Pellentesque feugiat consectetur purus, quis vulputate arcu dignissim vitae. Fusce hendrerit
+								diam libero, et feugiat magna congue sed. Integer tristique in nisl vitae porttitor. Sed ultrices dolor
+								nec erat lacinia rutrum.
+							</p>
+							<p>
+								Duis velit est, fringilla sed turpis at, interdum hendrerit diam. Praesent tincidunt dignissim varius.
+								Nunc non sapien felis. Phasellus elit ex, tristique non consectetur in, consectetur nec urna. Duis
+								porttitor placerat felis, in blandit purus facilisis id. Quisque luctus vulputate nibh, eu accumsan ante
+								lobortis ut. Donec faucibus mi purus, vel dignissim ligula convallis id. Vestibulum ut justo vestibulum,
+								lacinia nisl vel, faucibus quam. Cras lacinia diam sed vehicula ultrices. Fusce et luctus dui. Quisque
+								et risus nec purus tincidunt hendrerit. Maecenas aliquet auctor hendrerit. Mauris non ultricies diam.
+							</p>
+						</article>
+					</div>
+				</div>
 				<div id="prawy" class="col-12 col-md-3">
 					Śledź nas na:<br />
-					<a  href="#" onclick="">  <!--window.open('https://www.facebook.com/JestemWKosciele/'); return false; --> 
-					
+					<a href="#" onclick="">
 						<div class="fb"><i class="icon-facebook"></i>
 						</div>
 					</a>
-						
 					<a href="#">
 						<div class="yt"><i class="icon-youtube"></i>
 						</div>
 					</a>
-						
-					
 				</div>
-				<!-- <div style="clear:both;"></div> -->
-					
 			</div>
-			</div>
-		
-		
-			
-			<hr />
-			
-		
+		</div>
+		<hr />
 		<div id="footer">&#9400; Copyright 2018 Wszelkie prawa zastrzeżone
 		</div>
-		
 	</div>
-
-
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-	
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+		</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+		crossorigin="anonymous"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="script.js" type="text/javascript"></script>
-	
-  </body>
+</body>
+
 </html>

@@ -1,0 +1,74 @@
+article>p {
+	text-align: justify;
+	line-height: 1.8em;
+}
+
+article>p:first-child::first-letter {
+	font-size: 3em;
+}
+
+body {
+	margin: 0;
+	font-family: georgia;
+	font-size: 16px;
+}
+
+#container {
+	width: 80%;
+	margin: 0 auto;
+	padding: 0;
+	border-spacing: 0px;
+}
+
+#logo {
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	height: 100px;
+	margin: 0 auto;
+	text-align: center;
+	box-shadow: 0 0 0 0px;
+}
+
+#belowlogo {
+	text-align: right;
+	font-family: 'monotype coursiva';
+	font-size: 1em;
+}
+
+#tresc {
+	width: 75%;
+	padding: 15px;
+	padding-top: 8px;
+}
+
+#prawy {
+	padding: 10px;
+}
+
+#footer {
+	text-align: center;
+	font-size: 1em;
+}
+
+.test {
+	width: 100%;
+	padding: 5px 0;
+	text-align: center;
+}
+
+.fb {
+	float: left;
+	margin: 10px;
+	width: 70px;
+	height: 95px;
+	background-color: #4668b3;
+}
+
+.yt {
+	float: left;
+	margin: 10px;
+	width: 70px;
+	height: 95px;
+	background-color: #d94348;
+}
