@@ -11,5 +11,5 @@ My goal was testing Bootstrap with:
 - RWD
 
 ## View
-<img src="https://github.com/ukasz1/essentials/blob/main/chochliki/view.PNG?raw=true" width="*0%" />
+<img src="https://github.com/ukasz1/essentials/blob/main/chochliki/view2.PNG?raw=true" width="*0%" />
 
