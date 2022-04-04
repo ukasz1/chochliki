@@ -1,5 +1,7 @@
 # Chochliki
-A single responsive page based on the Bootstrap and JS. See online on <a href="https://mitkowski-chochliki.netlify.app/">Netlify</a>.
+A single responsive page based on the Bootstrap and JS. To run the site you can simply download the folder and click <i>index.html</i> \
+\
+<a href="https://mitkowski-chochliki.netlify.app/">See online</a> on Netlify.
 
 ## Used Technologies
 - Bootstrap
